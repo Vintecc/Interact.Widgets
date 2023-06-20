@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "target": "ES2021",
+        "jsx": "react-jsx",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "checkJs": true,
+        "declaration": false,
+        "sourceMap": false,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "./src/**/*.tsx",
+        "./src/**/*.ts"
+    ]
+}
