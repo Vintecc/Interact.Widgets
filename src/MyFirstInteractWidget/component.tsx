@@ -8,7 +8,7 @@ export interface IMyFirstInteractWidget {
 
 /* component react logic */
 export const MyFirstInteractWidget = React.forwardRef<any, IMyFirstInteractWidget>((props, ref) => {
-    return <div ref={ref} onClick = {() => {props.onClick; console.log("hi world")}}  >       
-         <h1>hi world this is my first interact widget {props.name}</h1>
+    return <div ref={ref} onClick = {() => {props.onClick; console.log("hi console")}}  >       
+         <h1>Header {props.name}</h1>
     </div>
 });
