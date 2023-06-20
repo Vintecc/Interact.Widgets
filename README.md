@@ -8,12 +8,15 @@
 - Adjust the `interact.config.json` file to adjust the build folder. 
 
 ## Develop
+- Add new component
+    > `npm run add-component`
+
 - Every change will trigger a rebuild of the components, this is not a production build.
-    > `interact-tools watch-components`
+    > `npm run watch-components`
 
 ## Build & Deploy
 - Build widgets to build folder
-    > `interact-tools build-components`
+    > `npm run build-components`
 
 - Copy the widgets from the build folder to `public/components` of the interact server. 
 
